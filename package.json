@@ -1,0 +1,28 @@
+{
+  "name": "application-watcher",
+  "version": "1.0.0",
+  "description": "Discord bot that reads Google Forms (via Sheets) and posts applications to Discord with interactive Accept/Reject button",
+  "main": "watcher.js",
+  "scripts": {
+    "start": "node watcher.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "@googleapis/sheets": "^4.0.0",
+    "googleapis": "^133.0.0",
+    "google-auth-library": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "google-forms",
+    "applications",
+    "moderation",
+    "open-source"
+  ],
+  "author": "CallOfCreator",
+  "license": "GPL-3.0"
+}
